@@ -1,0 +1,32 @@
+.navTop {
+    margin: 15px 0 10px 30px;
+}
+
+.selected {
+    color: #23adbb;
+    background-color: #fff;
+}
+
+.selectedTag div:first-child{
+    margin: 2px 0;
+    font-size: 16px;
+}
+.selectedTag div:last-child{
+    margin-bottom: 6px;
+}
+
+.selectedURL > a{
+    width: 100px;
+    display: inline-block;
+    text-align: center;
+    font-size: 18px;
+    color: black;
+}
+
+.selectedURL .active {
+    color: #f5f5f5;
+    background-color: #40a9ff;
+    font-size: 22px;
+    border-radius: 4px;
+}
+
